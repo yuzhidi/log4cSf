@@ -1,4 +1,4 @@
-This is the distribution of Log4C (last updated 13 Nov 2006)
+This is the distribution of Log4C (last updated 13 Nov 2006
 
 * What is Log4C
 
@@ -62,7 +62,7 @@ This is the distribution of Log4C (last updated 13 Nov 2006)
       http://expat.sourceforge.net/
 
 * How to for library users who download a released tarball (eg.
-  log4c-1.2.0.tar.gz):
+  log4c-1.2.4.tar.gz):
 
   The Log4C package uses the GNU autotools compilation and installation
   framework.
@@ -80,9 +80,9 @@ This is the distribution of Log4C (last updated 13 Nov 2006)
   example commands below should compile Log4C on each of the supported
   platforms:
   
-    $ tar -zxvf log4c-1.2.0.tar.gz
+    $ tar -zxvf log4c-1.2.4.tar.gz
     $ mkdir build; cd build
-    $ ../log4c-1.2.0/configure --prefix=/path/of/installation
+    $ ../log4c-1.2.4/configure --prefix=/path/of/installation
     $ make
     $ make install
 
@@ -90,14 +90,14 @@ This is the distribution of Log4C (last updated 13 Nov 2006)
     $ make rpm
 
   To enable compilation of the test programs for the library you would do this:
-    $ ../log4c-1.2.0/configure --prefix=/path/of/installation --enable-test
+    $ ../log4c-1.2.4/configure --prefix=/path/of/installation --enable-test
    
   To enable the dcumentation generation
-    $ ../log4c-1.2.0/configure --prefix=/path/of/installation --enable-doc
+    $ ../log4c-1.2.4/configure --prefix=/path/of/installation --enable-doc
    
   To specify a compiler other than gcc at configure time you would do something
   like this:
-    $ ../log4c-1.2.0/configure --prefix=/path/of/installation --enable-test \
+    $ ../log4c-1.2.4/configure --prefix=/path/of/installation --enable-test \
       CC=/usr/SUNWspro/bin/cc
 
   To cross-compile using MinGW:
